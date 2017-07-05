@@ -11,7 +11,8 @@ public class Allocator {
 	
 	public static void visualize() {
 		for (HashMap.Entry<Resource, List<User> > entry : allocatedResources.entrySet()) {
-		    System.out.println(entry.getKey()+" : "+entry.getValue());
+			System.out.println(entry.getKey().getName()+" : ");
+		    entry.getValue().listIterator().forEachRemaining(u ->  System.out.println(u.getName()));
 		}
 	}
 	
