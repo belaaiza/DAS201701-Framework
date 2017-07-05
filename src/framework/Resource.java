@@ -5,9 +5,9 @@ public abstract class Resource {
 	private String description;
 	private int number;
 	
-	public abstract void create(String name, String description, int number);
-	public abstract void delete(int idResource);
-	public abstract boolean update(int idResource, String name, String description);
+	public abstract void save();
+	public abstract void delete();
+	public abstract boolean update();
 	public abstract void visualize();
 	
 	public String getName() {
