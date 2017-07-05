@@ -3,18 +3,10 @@ public abstract class User {
 	private String name;
 	private String registration;
 	
-	public void create(String name, String registration){
-		
-	}
-	public void delete(){
-		
-	}
-	public boolean update(){
-		return true;
-	}
-	public void visualize(){
-		
-	}
+	public abstract void create(String name, String registration);
+	public abstract void delete();
+	public abstract boolean update();
+	public abstract void visualize();
 	
 	public String getName() {
 		return name;
