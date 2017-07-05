@@ -1,5 +1,5 @@
 
-public abstract class Resources {
+public abstract class Resource {
 	private String name;
 	private String description;
 	private int number;
