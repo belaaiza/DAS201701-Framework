@@ -4,12 +4,6 @@ public abstract class User {
 	private String registration;
 	
 	
-	
-	public User(String name, String registration) {
-		this.name = name;
-		this.registration = registration;
-	}
-	
 	public String getName() {
 		return name;
 	}
@@ -22,6 +16,19 @@ public abstract class User {
 	public void setRegistration(String registration) {
 		this.registration = registration;
 	}
+	public void create(String name, String registration){
+		
+	}
+	public void delete(){
+		
+	}
+	public boolean update(){
+		return true;
+	}
+	public void visualize(){
+		
+	}
+	
 	
 	
 }
