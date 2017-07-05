@@ -1,3 +1,4 @@
+package framework;
 
 public abstract class Resource {
 	private String name;
